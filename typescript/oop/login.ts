@@ -1,4 +1,4 @@
-class LoginPage {
+export class LoginPage {
     //variables
     emailInput: string = "";
     passwordInput: string = "";
@@ -26,13 +26,12 @@ class LoginPage {
         this.clickLoginButton();
     }
 
-
 }
 
 
-//100 tc 
+// //100 tc
 
-let loginPage = new LoginPage();
+// let loginPage = new LoginPage();
 
-loginPage.login("test@example.com", "password123");
+// loginPage.login("test@example.com", "password123");
 
