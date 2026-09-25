@@ -9,7 +9,6 @@ test('frame test', async ({ page }) => {
     await page.frameLocator().getByPlaceholder('Enter email').fill('test@example.com');
 });
 
-
 test('nested frame test', async ({ page }) => {
     await page.goto('https://aa-practice-test-automation.vercel.app/index.html');
     await page.getByPlaceholder('enter your username').fill('admin')
